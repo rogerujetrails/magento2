@@ -1,0 +1,13 @@
+[10-May-2018 21:15:03 UTC] PHP Warning:  require_once(/home/mag2stomp/public_html/vendor/composer/autoload_static.php): failed to open stream: Too many open files in system in /home/mag2stomp/public_html/vendor/composer/autoload_real.php on line 32
+[10-May-2018 21:15:03 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mag2stomp/public_html/vendor/composer/autoload_static.php' (include_path='/home/mag2stomp/public_html/vendor/magento/zendframework1/library:.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/mag2stomp/public_html/vendor/composer/autoload_real.php on line 32
+[10-May-2018 21:15:03 UTC] PHP Warning:  require(/home/mag2stomp/public_html/vendor/magento/module-ui/registration.php): failed to open stream: Too many open files in system in /home/mag2stomp/public_html/vendor/composer/autoload_real.php on line 70
+[10-May-2018 21:15:03 UTC] PHP Warning:  require(/home/mag2stomp/public_html/vendor/magento/module-require-js/registration.php): failed to open stream: Too many open files in system in /home/mag2stomp/public_html/vendor/composer/autoload_real.php on line 70
+[10-May-2018 21:15:03 UTC] PHP Warning:  require(/home/mag2stomp/public_html/vendor/magento/module-catalog-widget/registration.php): failed to open stream: Too many open files in system in /home/mag2stomp/public_html/vendor/composer/autoload_real.php on line 70
+[10-May-2018 21:15:03 UTC] PHP Fatal error:  Uncaught Exception: Warning: include(/home/mag2stomp/public_html/vendor/zendframework/zend-eventmanager/src/EventInterface.php): failed to open stream: Too many open files in system in /home/mag2stomp/public_html/vendor/composer/ClassLoader.php on line 444 in /home/mag2stomp/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 /home/mag2stomp/public_html/vendor/composer/ClassLoader.php(444): Magento\Framework\App\ErrorHandler->handler(2, 'include(/home/m...', '/home/mag2stomp...', 444, Array)
+#1 /home/mag2stomp/public_html/vendor/composer/ClassLoader.php(444): include()
+#2 /home/mag2stomp/public_html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/mag2stomp...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Zend\\EventManag...')
+#4 /home/mag2stomp/public_html/vendor/zendframework/zend-eventmanager/src/Event.php(20): spl_autoload_call('Zend\\EventManag...')
+#5 /home/mag2stomp/public_html/vendor/composer/ClassLoader.php(444): include('/home/ in /home/mag2stomp/public_html/vendor/zendframework/zend-servicemanager/src/ServiceManager.php on line 941

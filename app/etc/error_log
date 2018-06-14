@@ -1,0 +1,2 @@
+[18-May-2018 15:54:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php70/root/usr/lib64/php/modules/sysvsem.so' - /opt/cpanel/ea-php70/root/usr/lib64/php/modules/sysvsem.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[18-May-2018 15:54:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php70/root/usr/lib64/php/modules/gd.so' - libfreetype.so.6: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
